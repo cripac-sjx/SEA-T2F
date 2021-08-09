@@ -6,6 +6,7 @@ Requirements: python=3.7, pytorch=1.1.0, torchvision=0.3.0
 1. Download data:
 
 Download the CelebAText-HQ from https://drive.google.com/drive/folders/1IAb_iy6-soEGQWhbgu6cQODsIUJZpahC?usp=sharing, and extract them into data/CelebAText-HQ.
+
 Download the Multi-modal CelebA-HQ from https://drive.google.com/drive/folders/1U1DvkFlcYJBUYpo8lmvlmywln5LEc0_O?usp=sharing, and extract them into data/Multi-modal.
 Download the CelebAMask-HQ from https://drive.google.com/open?id=1badu11NqxGf6qM3PTTooQDJvQbejgbTv  and copy CelebAimg into data/CelebAText-HQ or data/Multi-modal CelebA-HQ.
 
