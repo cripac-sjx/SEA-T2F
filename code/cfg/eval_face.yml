@@ -1,0 +1,30 @@
+CONFIG_NAME: 'SEA-T2F'
+
+DATASET_NAME: 'CelebAText-HQ'
+DATA_DIR: '../data/CelebAText-HQ/'
+GPU_ID: 0
+WORKERS: 1
+
+B_VALIDATION: True
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: False
+    NET_G: '../models/netG_CelebAText.pth'
+    B_NET_D: False
+    BATCH_SIZE: 10
+    NET_E: '../DAMSMencoders/CelebAText-HQ/text_encoder.pth'
+
+
+GAN:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
+    R_NUM: 2
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 10
+    WORDS_NUM: 25
