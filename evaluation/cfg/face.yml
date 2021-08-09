@@ -1,0 +1,30 @@
+CONFIG_NAME: 'ControlGAN'
+
+DATASET_NAME: 'CelebAMask-HQ'
+DATA_DIR: '/home/jianxin.sun/CelebAMask-HQ/'
+GPU_ID: 0
+WORKERS: 1
+
+B_VALIDATION: True
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: False
+    NET_G: '/home/jianxin.sun/DF_Control/output/CelebAMask-HQ_ControlGAN_2020_09_09_11_23_16/Model/netG_epoch_161.pth'  
+    B_NET_D: False
+    BATCH_SIZE: 8
+    NET_E: '../models/text_encoder550.pth'
+
+
+GAN:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
+    R_NUM: 2
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 10
+    WORDS_NUM: 25
