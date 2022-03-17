@@ -13,9 +13,9 @@ Download the CelebAMask-HQ from https://github.com/switchablenorms/CelebAMask-HQ
 
 2. Download pretrain model:
 
-Download the pretriain model of CelebAText-HQ from https://drive.google.com/drive/folders/1XufcOo_I09h86ZR2M4UJ8WTVR7ARF87d, and extract them into /DAMSEencoders/CelebAText-HQ.
+Download the pretriain model of CelebAText-HQ from https://drive.google.com/drive/folders/1XufcOo_I09h86ZR2M4UJ8WTVR7ARF87d, and extract them into /DAMSMEencoders/CelebAText-HQ.
 
-Download the pretriain model of Multi-modal CelebA-HQ from https://drive.google.com/drive/folders/1FN4q7xD1jKvXeG3Pd6wqieUlr52bVoIX, and extract them into /DAMSEencoders/CelebAText-HQ.
+Download the pretriain model of Multi-modal CelebA-HQ from https://drive.google.com/drive/folders/1FN4q7xD1jKvXeG3Pd6wqieUlr52bVoIX, and extract them into /DAMSMEencoders/CelebAText-HQ.
 
 3. Download generative model:
 
